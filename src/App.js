@@ -9,7 +9,7 @@ class Likes extends Component {
 
     handleClick = (e) => { 
     this.setState({
-      word: (this.state.counter === 1 ? "Likes": "Like"),
+      word: (this.state.counter === 0 ? "Like": "Likes"),
         counter: this.state.counter + 1
        
     }) 
@@ -29,4 +29,4 @@ render() {
     }
   } 
 
-export default Likes
+export default Likes                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
